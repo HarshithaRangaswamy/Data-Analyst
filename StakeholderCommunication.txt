@@ -1,13 +1,13 @@
 Hi all,
 I am currently working on part of a data set for Fetch Rewards namely Receipts,
-user and brand.Below is the list of my approach and findings.
+User and Brand.Below is the list of my approach and findings.
 
 1)Firstly, data was in compressed JSON format used python pandas to read the files.
 2)On exploring the data I noticed that most of the dates were in dictionary format.
   Performed date transformation using python pandas to get them in standard DateTime format.
 3)Most of the items in receipts had either barcode or brandcode missing though data was present in brands 
-table tried to map and fill in the missing brandcodes.
+  table tried to map and fill in the missing brandcodes.
 4)On expanding the rewardsReceiptItemList we get 34 data fields are all the fields important as we see most of 
-the values as NULL.
+  the values as NULL.
 5)Also, wanted to know about competitiveProduct included in the receipts list.Why is it included?
-Is it used in deciding/marking discount for Items?
+  Is it used in deciding/marking discount for Items?
