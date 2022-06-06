@@ -5,7 +5,7 @@ User and Brand.Below is the list of my approach and findings.
 1)Firstly, data was in compressed JSON format used python pandas to read the files.
 2)On exploring the data I noticed that most of the dates were in dictionary format.
   Performed date transformation using python pandas to get them in standard DateTime format.
-3)Most of the items in receipts had either barcode or brandcode missing though data was present in brands 
+3)Most of the items in receipts had either barcode or brandcode missing, though data was present in brands 
   table tried to map and fill in the missing brandcodes.
 4)On expanding the rewardsReceiptItemList we get 34 data fields are all the fields important as we see most of 
   the values as NULL.
